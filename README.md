@@ -59,13 +59,10 @@ Our modified GAT+\(\phi\) model achieved consistently better performance than th
 ```text
 ├── data/                  # Cora dataset and preprocessing files
 ├── models/                # GAT baseline and modified attention implementations
-├── train.py               # Main training script
-├── evaluate.py            # Evaluation utilities
 ├── utils/                 # Graph preprocessing and helper functions
 ├── poster/                # Final project poster
-├── report/                # Final written report
 ├── README.md              # Project overview
-└── requirements.txt       # Python dependencies
+└── update/     # our modification to original code
 ```
 
 The repository includes implementations of:
@@ -185,9 +182,6 @@ All models were evaluated using node classification accuracy on the Cora test se
 Create a Python environment and install dependencies:
 
 ```bash
-conda create -n gat python=3.10
-conda activate gat
-pip install -r requirements.txt
 ```
 
 ---
@@ -195,7 +189,7 @@ pip install -r requirements.txt
 ## Train Original GAT
 
 ```bash
-python train.py --model gat
+
 ```
 
 ---
@@ -203,26 +197,9 @@ python train.py --model gat
 ## Train Phi-Attention GAT
 
 ```bash
-python train.py --model gat_phi
+
 ```
 
----
-
-## Train Pairwise Projection Variant
-
-```bash
-python train.py --model gat_pairwise
-```
-
----
-
-## Evaluate Results
-
-```bash
-python evaluate.py
-```
-
----
 
 ## Recommended Hardware
 
