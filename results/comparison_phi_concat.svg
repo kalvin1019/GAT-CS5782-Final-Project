@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600">
+<rect width="100%" height="100%" fill="white"/>
+<text x="640" y="34" text-anchor="middle" font-size="19" font-family="Arial">Cora test accuracy across 10 seeds: GATv1 vs GATv1+phi vs GATv2 vs GATv2+phi</text>
+<line x1="80" y1="70" x2="80" y2="480" stroke="black"/>
+<line x1="80" y1="480" x2="1202.6363636363635" y2="480" stroke="black"/>
+<line x1="76" y1="480.0" x2="80" y2="480.0" stroke="black"/>
+<text x="72" y="484.0" text-anchor="end" font-size="11" font-family="Arial">0.79</text>
+<line x1="80" y1="480.0" x2="1202.6363636363635" y2="480.0" stroke="#ddd" stroke-dasharray="2,3"/>
+<line x1="76" y1="411.6666666666665" x2="80" y2="411.6666666666665" stroke="black"/>
+<text x="72" y="415.6666666666665" text-anchor="end" font-size="11" font-family="Arial">0.80</text>
+<line x1="80" y1="411.6666666666665" x2="1202.6363636363635" y2="411.6666666666665" stroke="#ddd" stroke-dasharray="2,3"/>
+<line x1="76" y1="343.3333333333331" x2="80" y2="343.3333333333331" stroke="black"/>
+<text x="72" y="347.3333333333331" text-anchor="end" font-size="11" font-family="Arial">0.81</text>
+<line x1="80" y1="343.3333333333331" x2="1202.6363636363635" y2="343.3333333333331" stroke="#ddd" stroke-dasharray="2,3"/>
+<line x1="76" y1="275.0000000000004" x2="80" y2="275.0000000000004" stroke="black"/>
+<text x="72" y="279.0000000000004" text-anchor="end" font-size="11" font-family="Arial">0.82</text>
+<line x1="80" y1="275.0000000000004" x2="1202.6363636363635" y2="275.0000000000004" stroke="#ddd" stroke-dasharray="2,3"/>
+<line x1="76" y1="206.6666666666669" x2="80" y2="206.6666666666669" stroke="black"/>
+<text x="72" y="210.6666666666669" text-anchor="end" font-size="11" font-family="Arial">0.83</text>
+<line x1="80" y1="206.6666666666669" x2="1202.6363636363635" y2="206.6666666666669" stroke="#ddd" stroke-dasharray="2,3"/>
+<line x1="76" y1="138.33333333333343" x2="80" y2="138.33333333333343" stroke="black"/>
+<text x="72" y="142.33333333333343" text-anchor="end" font-size="11" font-family="Arial">0.84</text>
+<line x1="80" y1="138.33333333333343" x2="1202.6363636363635" y2="138.33333333333343" stroke="#ddd" stroke-dasharray="2,3"/>
+<line x1="76" y1="70.0" x2="80" y2="70.0" stroke="black"/>
+<text x="72" y="74.0" text-anchor="end" font-size="11" font-family="Arial">0.85</text>
+<line x1="80" y1="70.0" x2="1202.6363636363635" y2="70.0" stroke="#ddd" stroke-dasharray="2,3"/>
+<rect x="80.0" y="165.6666666666668" width="9" height="314.3333333333332" fill="#9ecae1"/>
+<rect x="90.0" y="172.50000000000017" width="9" height="307.49999999999983" fill="#fdae6b"/>
+<rect x="100.0" y="213.50000000000028" width="9" height="266.4999999999997" fill="#3182bd"/>
+<rect x="110.0" y="234.00000000000028" width="9" height="245.99999999999972" fill="#e6550d"/>
+<text x="99.5" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">123</text>
+<rect x="186.36363636363637" y="193.00000000000023" width="9" height="286.9999999999998" fill="#9ecae1"/>
+<rect x="196.36363636363637" y="309.1666666666671" width="9" height="170.83333333333292" fill="#fdae6b"/>
+<rect x="206.36363636363637" y="172.50000000000017" width="9" height="307.49999999999983" fill="#3182bd"/>
+<rect x="216.36363636363637" y="227.16666666666697" width="9" height="252.83333333333303" fill="#e6550d"/>
+<text x="205.86363636363637" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">456</text>
+<rect x="292.72727272727275" y="275.0000000000004" width="9" height="204.9999999999996" fill="#9ecae1"/>
+<rect x="302.72727272727275" y="199.83333333333354" width="9" height="280.16666666666646" fill="#fdae6b"/>
+<rect x="312.72727272727275" y="275.0000000000004" width="9" height="204.9999999999996" fill="#3182bd"/>
+<rect x="322.72727272727275" y="329.6666666666664" width="9" height="150.3333333333336" fill="#e6550d"/>
+<text x="312.22727272727275" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">789</text>
+<rect x="399.09090909090907" y="268.1666666666671" width="9" height="211.83333333333292" fill="#9ecae1"/>
+<rect x="409.09090909090907" y="227.16666666666697" width="9" height="252.83333333333303" fill="#fdae6b"/>
+<rect x="419.09090909090907" y="165.6666666666668" width="9" height="314.3333333333332" fill="#3182bd"/>
+<rect x="429.09090909090907" y="206.6666666666669" width="9" height="273.3333333333331" fill="#e6550d"/>
+<text x="418.59090909090907" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">42</text>
+<rect x="505.45454545454544" y="302.33333333333377" width="9" height="177.66666666666623" fill="#9ecae1"/>
+<rect x="515.4545454545455" y="206.6666666666669" width="9" height="273.3333333333331" fill="#fdae6b"/>
+<rect x="525.4545454545455" y="240.83333333333363" width="9" height="239.16666666666637" fill="#3182bd"/>
+<rect x="535.4545454545455" y="261.3333333333337" width="9" height="218.6666666666663" fill="#e6550d"/>
+<text x="524.9545454545455" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">7</text>
+<rect x="611.8181818181818" y="227.16666666666697" width="9" height="252.83333333333303" fill="#9ecae1"/>
+<rect x="621.8181818181818" y="302.33333333333377" width="9" height="177.66666666666623" fill="#fdae6b"/>
+<rect x="631.8181818181818" y="350.1666666666664" width="9" height="129.8333333333336" fill="#3182bd"/>
+<rect x="641.8181818181818" y="316.00000000000045" width="9" height="163.99999999999955" fill="#e6550d"/>
+<text x="631.3181818181818" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">2024</text>
+<rect x="718.1818181818181" y="220.3333333333336" width="9" height="259.6666666666664" fill="#9ecae1"/>
+<rect x="728.1818181818181" y="124.66666666666674" width="9" height="355.33333333333326" fill="#fdae6b"/>
+<rect x="738.1818181818181" y="234.00000000000028" width="9" height="245.99999999999972" fill="#3182bd"/>
+<rect x="748.1818181818181" y="377.49999999999983" width="9" height="102.50000000000017" fill="#e6550d"/>
+<text x="737.6818181818181" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">31</text>
+<rect x="824.5454545454545" y="329.6666666666664" width="9" height="150.3333333333336" fill="#9ecae1"/>
+<rect x="834.5454545454545" y="186.1666666666669" width="9" height="293.8333333333331" fill="#fdae6b"/>
+<rect x="844.5454545454545" y="281.8333333333337" width="9" height="198.1666666666663" fill="#3182bd"/>
+<rect x="854.5454545454545" y="295.50000000000045" width="9" height="184.49999999999955" fill="#e6550d"/>
+<text x="844.0454545454545" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">17</text>
+<rect x="930.9090909090909" y="343.3333333333331" width="9" height="136.6666666666669" fill="#9ecae1"/>
+<rect x="940.9090909090909" y="316.00000000000045" width="9" height="163.99999999999955" fill="#fdae6b"/>
+<rect x="950.9090909090909" y="172.50000000000017" width="9" height="307.49999999999983" fill="#3182bd"/>
+<rect x="960.9090909090909" y="131.5000000000001" width="9" height="348.4999999999999" fill="#e6550d"/>
+<text x="950.4090909090909" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">99</text>
+<rect x="1037.2727272727273" y="213.50000000000028" width="9" height="266.4999999999997" fill="#9ecae1"/>
+<rect x="1047.2727272727273" y="186.1666666666669" width="9" height="293.8333333333331" fill="#fdae6b"/>
+<rect x="1057.2727272727273" y="234.00000000000028" width="9" height="245.99999999999972" fill="#3182bd"/>
+<rect x="1067.2727272727273" y="240.83333333333363" width="9" height="239.16666666666637" fill="#e6550d"/>
+<text x="1056.7727272727273" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="normal">1</text>
+<rect x="1143.6363636363635" y="253.81666666666558" width="9" height="226.18333333333442" fill="#9ecae1"/>
+<rect x="1153.6363636363635" y="223.06666666666666" width="9" height="256.93333333333334" fill="#fdae6b"/>
+<rect x="1163.6363636363635" y="234.00000000000028" width="9" height="245.99999999999972" fill="#3182bd"/>
+<rect x="1173.6363636363635" y="262.016666666667" width="9" height="217.983333333333" fill="#e6550d"/>
+<text x="1163.1363636363635" y="496" text-anchor="middle" font-size="11" font-family="Arial" font-weight="bold">mean</text>
+<text x="631.3181818181818" y="518" text-anchor="middle" font-size="12" font-family="Arial">seed</text>
+<text x="22" y="275.0" text-anchor="middle" font-size="12" font-family="Arial" transform="rotate(-90 22 275.0)">test accuracy</text>
+<rect x="80" y="538" width="14" height="14" fill="#9ecae1" stroke="#333"/>
+<text x="100" y="550" font-size="12" font-family="Arial">GATv1  (mean 0.8231)</text>
+<rect x="380" y="538" width="14" height="14" fill="#fdae6b" stroke="#333"/>
+<text x="400" y="550" font-size="12" font-family="Arial">GATv1 + phi  (mean 0.8276)</text>
+<rect x="680" y="538" width="14" height="14" fill="#3182bd" stroke="#333"/>
+<text x="700" y="550" font-size="12" font-family="Arial">GATv2  (mean 0.8260)</text>
+<rect x="980" y="538" width="14" height="14" fill="#e6550d" stroke="#333"/>
+<text x="1000" y="550" font-size="12" font-family="Arial">GATv2 + phi  (mean 0.8219)</text>
+</svg>
