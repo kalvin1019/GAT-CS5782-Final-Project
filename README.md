@@ -61,6 +61,9 @@ Our modified GAT+\(\phi\) model achieved consistently better performance than th
 ├── models/                # GAT baseline and modified attention implementations
 ├── utils/                 # Graph preprocessing and helper functions
 ├── poster/                # Final project poster
+├── pretrained/cora        # pretrained parameters from original paper
+├── report/                # project report
+├── results/               # results
 ├── README.md              # Project overview
 └── update/     # our modification to original code
 ```
