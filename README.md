@@ -180,28 +180,63 @@ All models were evaluated using node classification accuracy on the Cora test se
 
 # 5. Reproduction Steps
 
+
+## Repository Structure
+
+The core implementation files are:
+
+- `gat.py` — Dense GAT forward propagation with optional structural $\phi$ features.
+- `sp_gat.py` — Sparse GAT implementation for memory-efficient training on sparse graphs.
+- `layers.py` — Attention head implementations, including structural feature injection into attention logits.
+- `phi.py` — Precomputation of structural features including normalized degree and Jaccard similarity.
+
+---
+
 ## Environment Setup
 
-Create a Python environment and install dependencies:
+We recommend using Python 3.9+ with TensorFlow 2.x.
+
+Install dependencies:
 
 ```bash
+pip install tensorflow numpy scipy networkx matplotlib
 ```
+
+Recommended environment:
+
+| Component | Version |
+|---|---|
+| Python | 3.9+ |
+| TensorFlow | 2.12+ |
+| NumPy | 1.24+ |
+| SciPy | 1.10+ |
+
+Because the original GAT implementation was written for TensorFlow 1.x, parts of the codebase were rewritten for compatibility with modern TensorFlow and Google Colab environments.
 
 ---
 
-## Train Original GAT
+## Dataset Preparation
 
-```bash
+Download the Cora dataset from the original GAT repository or citation network benchmark source.
 
+Place the files under:
+
+```text
+data/cora/
 ```
+
+The graph should include:
+
+- Node feature matrix $X$
+- Adjacency matrix $A$
+- Train / validation / test splits:
+  - 140 training nodes
+  - 500 validation nodes
+  - 1000 test nodes
+
+These settings follow the original GAT paper protocol.
 
 ---
-
-## Train Phi-Attention GAT
-
-```bash
-
-```
 
 
 ## Recommended Hardware
